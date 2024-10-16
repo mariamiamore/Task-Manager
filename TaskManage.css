@@ -1,0 +1,68 @@
+h1{
+    font-family: "Lucida Handwriting", cursive;
+    color:  #EFC3D2;
+    
+}
+
+.topnav a{
+    overflow: hidden;
+    color:#EFC3D2;
+    font-family:"Courier New", sans-serif;
+}
+
+body{
+    font-family: Impact;
+    font-size:larger;
+    font-style:italic;
+    font-weight: 500;
+    padding: 10px;
+    background: url(meww.jfif);
+    background-size: cover;
+    background-position: top;
+}
+
+#taskList span 
+{
+    color: whitesmoke;
+    font-size:20px;
+    font-family: 'Courier New', sans-serif;
+    font-weight:550;
+}
+
+input[type="text"]::placeholder { 
+    color: #9C7491;
+    font-style: italic; 
+    opacity: 1000;
+    border-radius: 50px;
+}
+
+button {
+    background-color: #EFC3D2;
+    border-radius: 8px;
+    color:#5a3a51;
+    border: 0px;
+}
+.container 
+{
+    background-image: url('meww.jfif');
+    background-position: top;
+    width:cover;
+    height:600px;
+    padding: 15px;
+    border: 2px solid #Ffc0cb;
+    border-radius: 10px;
+    text-align: center;
+    margin: 40px auto;
+    overflow: auto;
+    position:relative;
+}
+
+#taskList li 
+{
+    list-style: none;
+    text-align: left;
+    padding: 8px;
+    background-color: rgba(156, 117, 145, 0.6);
+    border-radius: 5px;
+    margin: 5px;
+}
